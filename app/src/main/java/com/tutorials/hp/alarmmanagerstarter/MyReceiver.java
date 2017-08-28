@@ -6,12 +6,15 @@ import android.content.Intent;
 import android.widget.Toast;
 
 /**
- * Created by Oclemy on 1/19/2017 for ProgrammingWizards Channel and http://www.camposha.com.
+ * Created by Oclemy for ProgrammingWizards Channel and http://www.camposha.info.
+ - Our MyReciever class.
+ - Derives from  android.content.BroadcastReceiver class.
+ - Methods: onReceive().
+ - We show a toast message in our onReceive() method to simulate alarm ringing.
  */
 
 
 public class MyReceiver extends BroadcastReceiver {
-
     /*
     RING ALARM WHEN IN WHEN WE RECEIVE OUR BROADCAST
      */
