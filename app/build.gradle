@@ -18,7 +18,10 @@ android {
         }
     }
 }
-
+/*
+- Our app level build.gradle file.
+- We add two support libraries: appcompat and design.
+ */
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
