@@ -12,7 +12,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
+/*
+- Our MainActivity class.
+- Derives from AppCompatActivity which resides in the support library.
+- Methods: onCreate(),initializeViews(),go().
+- Inflated From content_main.xml using the setContentView() method.
+- The views we use are EditTexts and Buttons.
+- Reference EditText and Button from our layout specification using findViewById().
+- Initialize and start our alarm in go() method.
+ */
 public class MainActivity extends AppCompatActivity {
 
     Button startBtn;
